@@ -1,7 +1,11 @@
-function [outputArg1,outputArg2] = forward(inputArg1,inputArg2)
+function [u_global] = forward(umin,umax,cond,f,dt)
 %FORWARD Summary of this function goes here
 %   Detailed explanation goes here
-outputArg1 = inputArg1;
-outputArg2 = inputArg2;
+    u=[cond];
+    for i=umin:dt:(umax-dt)
+    
+        
+        
+    end
 end
 
